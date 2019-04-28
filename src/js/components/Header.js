@@ -10,22 +10,22 @@ class Header extends Component {
 
   render() {
     return (
-<div>       
-<div id="top-header">
-  <div id="top-header">
-    <div className="top-header">
-      <div className="container">
-        <LeftHeader />
-        <RightHeader />
-      </div>
-    </div>
-  </div>
-</div>
+      <div>       
+        <div id="top-header">
+          <div id="top-header">
+            <div className="top-header">
+              <div className="container">
+                <LeftHeader />
+                <RightHeader />
+              </div>
+            </div>
+          </div>
+        </div>
 
-<Nav />
+        <Nav />
 
-<BodySec />
-</div>  
+        <BodySec />
+      </div>  
       )
   }
 }
